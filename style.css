@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+.build{
+    min-height: calc(100vh - (72px + 72px))
+}
+
+.size{
+    height: 7em;
+    width: 7em;
+    align-items: center;
+}
+
+.card{
+    height: auto;
+    width: 8em;
+    text-align: start;
+    padding: .5em;
+}
