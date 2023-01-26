@@ -14,7 +14,7 @@
 <body>
     
     <header>
-        <nav class="bg-dark text-light p-4 d-flex align-items-center">
+        <nav class="bg-color text-light p-4 d-flex align-items-center">
             <span>🍨 Ice Cream Parlor 🍨</span>
 
         </nav>
@@ -30,12 +30,19 @@
                     <h4>Cart</h4>
                     <div class="row" id="cart">
                         <div class="col-12">
-                            
+                            Cart is empty
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-12 d-flex" >
+                            <h3>Total: $  </h3>
+                            <h3 id="cart-total"> </h3>
+                            <button class="btn btn-success ms-3" onclick="checkout()">Checkout</button>
                         </div>
                     </div>
                 </div>
                 <!-- SECTION Store column -->
-                <div class="col-md-7 build bg-secondary text-light">
+                <div class="col-md-7 build bg-main text-light py-1">
                     <h4>Containers</h4>
                     <div class="row d-flex justify-content-around" id="container-cards">
                     </div>
@@ -52,7 +59,7 @@
 
     </main>
 
-    <footer class="bg-dark text-light py-4 d-flex justify-content-center align-items-center">
+    <footer class="bg-color text-light py-4">
         <marquee class="">🍦 🍨 🍧 🍨 🍦</marquee>
     </footer>
 

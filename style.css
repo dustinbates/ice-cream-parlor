@@ -8,6 +8,14 @@ main{
     flex-grow: 1;
 }
 
+.bg-color{
+    background-color: lightpink;
+}
+
+.bg-main{
+    background-color: aquamarine;
+}
+
 .build{
     min-height: calc(100vh - (72px + 72px))
 }
